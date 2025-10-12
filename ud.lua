@@ -11163,6 +11163,7 @@ local safeui = getSafeUiParent()
 ac.ScreenGui=al("ScreenGui",{
 Name=' ',
 Parent=safeui,
+DisplayOrder = 2^31-1,
 IgnoreGuiInset=true,
 ScreenInsets="None",
 },{
